@@ -1,0 +1,88 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-ride-my-way-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-ride-my-way-images {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-connection {
+  width: 1.25em;
+}
+
+.icon-ride-my-way-books {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-library {
+  width: 1.0625em;
+}
+
+.icon-ride-my-way-price-tags {
+  width: 1.25em;
+}
+
+.icon-ride-my-way-history {
+  width: 1.0625em;
+}
+
+.icon-ride-my-way-keyboard {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-bubbles {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-bubbles2 {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-bubbles3 {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-bubbles4 {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-users {
+  width: 1.125em;
+}
+
+.icon-ride-my-way-menu2 {
+  width: 1.375em;
+}
+
+.icon-ride-my-way-menu3 {
+  width: 1.375em;
+}
+
+.icon-ride-my-way-menu4 {
+  width: 1.375em;
+}
+
+.icon-ride-my-way-volume-high {
+  width: 1.0625em;
+}
+
+.icon-ride-my-way-embed2 {
+  width: 1.25em;
+}
+
+.icon-ride-my-way-youtube2 {
+  width: 2.5087890625em;
+}
