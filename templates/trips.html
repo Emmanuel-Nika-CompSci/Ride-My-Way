@@ -104,35 +104,8 @@
 	<footer>&copy; 2018 <strong>Ride My Way</strong>. All Rights Reserved. <a href="#terms">Terms of Service</a></footer>
 	
 	<!-- jQuery if needed -->
-		<script type="text/javascript" src="../static/js/jquery.min.js"></script>
-		<script type="text/javascript">
-
-			function DropDown(el) {
-				this.dd = el;
-				this.initEvents();
-			}
-			DropDown.prototype = {
-				initEvents : function() {
-					var obj = this;
-
-					obj.dd.on('click', function(event){
-						$(this).toggleClass('active');
-						event.stopPropagation();
-					});	
-				}
-			}
-
-			$(function() {
-
-				var dd = new DropDown( $('#dd') );
-
-				$(document).click(function() {
-					// all dropdowns
-					$('.wrapper-dropdown-5').removeClass('active');
-				});
-
-			});
-
-		</script>
+	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../static/js/custom.js"></script>
+	
 </body>
 </html>
