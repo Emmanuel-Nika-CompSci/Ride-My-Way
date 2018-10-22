@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+	<title>Post</title>
+
+	<meta name="description" content="Ride My Way Application" />
+    <meta name="author" content="Ride My Way" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="menu-navbar">
+			<div class="navbar-header">
+	  			<a class="navbar-brand" href="#">Ride My Way</a>
+			</div>
+			<ul class="menu-nav navbar-nav">
+				<li><a href="search.html">Search</a></li>
+				<li><a href="post.html">Post Trip</a></li>
+				<li><a href="trips.html">Trips</a></li>
+			</ul>
+			<ul class="menu-nav navbar-nav navbar-right">
+				<li><a href="#notification">Notification</a></li>
+				<li><a href="#friends" data-target='dropdown1'>Friends</a></li>
+				<li id="dd" class="wrapper-dropdown-5 wrapper-demo" tabindex="1">John Doe
+					<ul class="dropdown">
+						<li><a href="#"><i class="icon-user"></i>Profile</a></li>
+						<li><a href="#"><i class="icon-cog"></i>Settings</a></li>
+						<li><a href="#"><i class="icon-remove"></i>Log out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4 panel">
+				<form class="ride-form" role="form">
+					<div class="ride-form-group">
+						<div class="row">
+							<div class="col-25 text-right">
+								<label>From</label>
+							</div>
+							<div class="col-75">
+								<input type="text" class="ride-form-control">
+							</div>
+						</div>
+					</div>
+					<div class="ride-form-group">
+						<div class="row">
+							<div class="col-25 text-right">
+								<label>To</label>
+							</div>
+							<div class="col-75">
+								<input type="text" class="ride-form-control">
+							</div>
+						</div>
+					</div>
+					<div class="ride-form-group">
+						<div class="row">
+							<div class="col-25 text-right">
+								<label>Date</label>
+							</div>
+							<div class="col-75">
+								<input type="date" class="ride-form-control">
+							</div>
+						</div>
+					</div>
+					<div class="checkbox">
+						<div class="row">
+							<div class="col-25"></div>
+							<div class="col-75">
+								<label><input type="checkbox"> Smoking Allowed</label>
+							</div>
+						</div>
+					</div>
+					<div class="ride-form-group">
+						<div class="row">
+							<div class="col-25 text-right">
+								<label>Message</label>
+							</div>
+							<div class="col-75">
+								<textarea class="ride-form-control">
+									Include some message
+								</textarea>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-25"></div>
+						<div class="col-75 text-right">
+							<button type="submit" class="ride-btn ride-blue-btn">Post</button>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="col-sm-8">
+				<div class="map">
+					<div id="map" style="width:100%;height:400px;"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>&copy; 2018 <strong>Ride My Way</strong>. All Rights Reserved. <a href="#terms">Terms of Service</a></footer>
+
+	<script>
+	function myMap() {
+		var myCenter = new google.maps.LatLng(0.329183, 32.57098810000002);
+		var mapCanvas = document.getElementById("map");
+		var mapOptions = {center: myCenter, zoom: 16};
+		var map = new google.maps.Map(mapCanvas, mapOptions);
+		var marker = new google.maps.Marker({position:myCenter});
+		marker.setMap(map);
+	}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEz68AiOQv2pdvOZEF3W377MdUVH0lu3I&callback&callback=myMap"></script>
+	
+	<script type="text/javascript" src="../static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="../static/js/custom.js"></script>
+	
+</body>
+</html>
