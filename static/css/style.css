@@ -818,8 +818,9 @@ input[type="submit"] {
 }
 
 .map {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0px 10px 30px; 
+  background-color: #bcb9b9;
 }
 
 table {
@@ -931,6 +932,7 @@ th {
     top: 100%;
     left: 0;
     right: 0;
+    z-index: 1;
 
     /* Styles */
     background: #f9f9f9;
