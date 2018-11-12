@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+
+	<title>Home</title>
+
+    <meta name="description" content="Ride My Way Application" />
+    <meta name="author" content="Ride My Way" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="static/css/all.css">
+</head>
+<body>
+	<div class="nav">
+		<div class="menu-navbar">
+			<div class="navbar-header">
+	  			<a class="navbar-brand" href=" ">Ride My Way</a>
+			</div>
+			<ul class="menu-nav navbar-nav">
+				<li><a href="search.html">Search</a></li>
+				<li><a href="post.html">Post Trip</a></li>
+				<li><a href="trips.html">Trips</a></li>
+			</ul>
+			<ul class="menu-nav navbar-nav navbar-right">
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#notification"><i class='fas fa-bell badge1 nav-icon' data-badge="6"></i></a></li>
+				<li><a href="#message" data-target='dropdown1'><i class='fas fa-envelope nav-icon badge1' data-badge="4"></i></a></li>
+				<li id="dd" class="wrapper-dropdown-5 wrapper-demo" tabindex="1">
+					<img src="static/images/myAvatar_6.png" class="profile-nav-pic"> John Doe
+					<ul class="dropdown">
+						<li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+						<li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+						<li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Log out</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="side-nav blue-card">
+					<ul>
+						<li><a href="searchhome.html"><i class="fab fa-sistrix"></i> Search Carpoolers</a></li>
+						<li><a href="groups.html"><i class="fas fa-users"></i> My Groups</a></li>
+						<li><a href="expenses.html"><i class="far fa-money-bill-alt"></i> My Expenses</a></li>
+					</ul>
+				</div>
+				<div class="side-nav blue-card">
+					<ul>
+						<li><a href="#"><i class="far fa-chart-bar"></i> Trending</a></li>
+						<li><a href="#"><i class="fas fa-globe-africa"></i> Newsfeed</a></li>
+						<li><a href="#"><i class="fas fa-dice"></i> Games</a></li>
+					</ul>
+				</div>
+				<div class="blue-card suggestion-box">
+					<div class="suggestion-list">
+						<div class="suggestion-body">
+							<img class="img-responsive img-circle" src="static/images/myAvatar_9.png">
+							<div class="name-box"><p>Frank Edwards</p></div><span><i class="fa fa-plus"></i></span>
+						</div>
+						<div class="suggestion-body">
+							<img class="img-responsive img-circle" src="static/images/myAvatar_10.png">
+							<div class="name-box"><p>Hermoine Granger</p></div><span><i class="fa fa-plus"></i></span>
+						</div>
+						<div class="suggestion-body">
+							<img class="img-responsive img-circle" src="static/images/myAvatar_11.png">
+							<div class="name-box"><p>Mary Jane</p></div><span><i class="fa fa-plus"></i></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row ride-search">
+					<input type="text" name="status" placeholder="Search for friend">
+					<button type="submit" class="ride-btn ride-blue-btn action-btn">Search</button>
+				</div>
+				<div class="ride-card row">
+					<div class="col-md-3">
+						<img src="static/images/myAvatar_1.png" class="profile-pic">
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-7 name-link">
+								<a href="">Micheal Scofield</a>
+								<p>Thanks for yesterday!</p>
+							</div>
+							<div class="col-md-5">
+								<div class="text-right">
+									<ul class="ride-card-icon ride-blue-icon">
+										<li><a href=""><i class='fas fa-comment-alt ride-icon'></i></a></li>
+										<li><a href=""><i class="fa fa-phone ride-icon"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ride-card row">
+					<div class="col-md-3">
+						<img src="static/images/myAvatar_2.png" class="profile-pic">
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-7 name-link">
+								<a href="">Tom Cruise</a>
+								<p>You remind me of transporter</p>
+							</div>
+							<div class="col-md-5">
+								<div class="text-right">
+									<ul class="ride-card-icon ride-blue-icon">
+										<li><a href=""><i class='fas fa-comment-alt ride-icon'></i></a></li>
+										<li><a href=""><i class="fa fa-phone ride-icon"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ride-card row">
+					<div class="col-md-3">
+						<img src="static/images/myAvatar_3.png" class="profile-pic">
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-7 name-link">
+								<a href="">Jesca Alba</a>
+								<p>Are you free today?</p>
+							</div>
+							<div class="col-md-5">
+								<div class="text-right">
+									<ul class="ride-card-icon ride-blue-icon">
+										<li><a href=""><i class='fas fa-comment-alt ride-icon'></i></a></li>
+										<li><a href=""><i class="fa fa-phone ride-icon"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="ride-card row">
+					<div class="col-md-3">
+						<img src="static/images/myAvatar_4.png" class="profile-pic">
+					</div>
+					<div class="col-md-9">
+						<div class="row">
+							<div class="col-md-7 name-link">
+								<a href="">Emma Watson</a>
+								<p>Thanks for yesterday!</p>
+							</div>
+							<div class="col-md-5">
+								<div class="text-right">
+									<ul class="ride-card-icon ride-blue-icon">
+										<li><a href=""><i class='fas fa-comment-alt ride-icon'></i></a></li>
+										<li><a href=""><i class="fa fa-phone ride-icon"></i></a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3">
+				<div class="side-card text-center">
+					<h2>Upcoming Trip</h2>
+					<img src="static/images/hotel.jpeg">
+					<p>Sheraton Hotel</p>
+					<p>Friday 6:00pm</p>
+				</div>
+				<div class="side-nav text-center">
+					<a href="">More Stories</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer>&copy; 2018 <strong>Ride My Way</strong>. All Rights Reserved. <a href="#terms">Terms of Service</a></footer>
+	
+	<!-- jQuery if needed -->
+	<script type="text/javascript" src="static/js/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/custom.js"></script>
+	
+</body>
+</html>

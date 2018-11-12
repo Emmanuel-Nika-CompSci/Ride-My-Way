@@ -11,12 +11,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 	<link rel="stylesheet" type="text/css" href="static/css/style.css">
+	<link rel="stylesheet" type="text/css" href="static/css/all.css">
 </head>
 <body>
 	<div class="nav">
 		<div class="menu-navbar">
 			<div class="navbar-header">
-	  			<a class="navbar-brand" href="#">Ride My Way</a>
+	  			<a class="navbar-brand" href=" ">Ride My Way</a>
 			</div>
 			<ul class="menu-nav navbar-nav">
 				<li><a href="search.html">Search</a></li>
@@ -24,13 +25,15 @@
 				<li><a href="trips.html">Trips</a></li>
 			</ul>
 			<ul class="menu-nav navbar-nav navbar-right">
-				<li><a href="#notification">Notification</a></li>
-				<li><a href="#friends" data-target='dropdown1'>Friends</a></li>
-				<li id="dd" class="wrapper-dropdown-5 wrapper-demo" tabindex="1">John Doe
+				<li><a href="home.html">Home</a></li>
+				<li><a href="#notification"><i class='fas fa-bell badge1 nav-icon' data-badge="6"></i></a></li>
+				<li><a href="#message" data-target='dropdown1'><i class='fas fa-envelope nav-icon badge1' data-badge="4"></i></a></li>
+				<li id="dd" class="wrapper-dropdown-5 wrapper-demo" tabindex="1">
+					<img src="static/images/myAvatar_6.png" class="profile-nav-pic"> John Doe
 					<ul class="dropdown">
-						<li><a href="#"><i class="icon-user"></i>Profile</a></li>
-						<li><a href="#"><i class="icon-cog"></i>Settings</a></li>
-						<li><a href="#"><i class="icon-remove"></i>Log out</a></li>
+						<li><a href="#"><i class="fas fa-user"></i> Profile</a></li>
+						<li><a href="#"><i class="fa fa-cog"></i> Settings</a></li>
+						<li><a href="index.html"><i class="fas fa-sign-out-alt"></i> Log out</a></li>
 					</ul>
 				</li>
 			</ul>
@@ -120,7 +123,7 @@
 	}
 	</script>
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEz68AiOQv2pdvOZEF3W377MdUVH0lu3I&callback&callback=myMap"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDEz68AiOQv2pdvOZEF3W377MdUVH0lu3I&callback=myMap"></script>
 	
 	<script type="text/javascript" src="static/js/jquery.min.js"></script>
 	<script type="text/javascript" src="static/js/custom.js"></script>
