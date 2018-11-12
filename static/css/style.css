@@ -959,9 +959,10 @@ input[type="submit"] {
 }
 
 .map {
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 0px 10px 30px; 
   background-color: #eee;
+
 }
 
 table {
