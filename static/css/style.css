@@ -1151,6 +1151,21 @@ th {
   border-radius: 50%;
 }
 
+.user-info a {
+  display: inline-block !important;
+  padding: 0px 5px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.detail {
+  color: #fff;
+}
+.profile-card-pic {
+  border-radius: 50%;
+  border: 1px solid #efefef;
+}
 .profile-nav-pic {
   border-radius: 50%;
   width: 45px;
